@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A9EB4B28841D9400312865 /* Tv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EB4A28841D9400312865 /* Tv.swift */; };
 		42BADC342883E7F2006373E3 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BADC332883E7F2006373E3 /* APICaller.swift */; };
 		42BADC362883F8CC006373E3 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BADC352883F8CC006373E3 /* Movie.swift */; };
 		42BADC382883FEE8006373E3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BADC372883FEE8006373E3 /* Extensions.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42A9EB4A28841D9400312865 /* Tv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tv.swift; sourceTree = "<group>"; };
 		42BADC332883E7F2006373E3 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		42BADC352883F8CC006373E3 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		42BADC372883FEE8006373E3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -118,6 +120,8 @@
 		42FE53E1287C5BB600B4592A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				42BADC352883F8CC006373E3 /* Movie.swift */,
+				42A9EB4A28841D9400312865 /* Tv.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -134,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				42BADC332883E7F2006373E3 /* APICaller.swift */,
-				42BADC352883F8CC006373E3 /* Movie.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				42FE53DA287AEE4600B4592A /* UpcommingViewController.swift in Sources */,
 				42FE53C5287AE45E00B4592A /* SceneDelegate.swift in Sources */,
 				42BADC362883F8CC006373E3 /* Movie.swift in Sources */,
+				42A9EB4B28841D9400312865 /* Tv.swift in Sources */,
 				42FE53D8287AEE0000B4592A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

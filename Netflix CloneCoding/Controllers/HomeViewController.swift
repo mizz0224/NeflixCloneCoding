@@ -30,7 +30,7 @@ class HomeViewController: UIViewController  {
         let headerView = HeroHeaderUIVuew(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
         homeFeedTable.tableHeaderView = headerView
         
-        getTrendingMovies()
+        fetchData()
     }
     private func configureNavbar(){
         var image = UIImage(named: "netflixLogo")
@@ -50,17 +50,20 @@ class HomeViewController: UIViewController  {
         homeFeedTable.frame = view.bounds
     }
     
-    private func getTrendingMovies(){
-        APICaller.shared.getTrendingMovies { results in
-            switch results {
-                
-            case.success(let movies):
-                print(movies)
-            case.failure(let error):
-                print(error)
-                
-            }
-        }
+    private func fetchData(){
+//        APICaller.shared.getTrendingMovies { results in
+//            switch results {
+//
+//            case.success(let movies):
+//                print(movies)
+//            case.failure(let error):
+//                print(error)
+//
+//            }
+//        }
+        APICaller.shared.getTrendingTvs { result in
+            
+        } 
     }
     
 }
